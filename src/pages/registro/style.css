@@ -1,0 +1,11 @@
+.contenedor-registro {
+    padding: 10px
+}
+
+.button-registro{
+    background-color: blueviolet;
+}
+
+.button-registro:hover {
+    background-color: rgb(189, 147, 227);
+}
