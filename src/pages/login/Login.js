@@ -24,7 +24,7 @@ const Login = () => {
             </div>
 
             <div class="olvcont">
-                <a class="etc" href="">¿Olvidaste contraseña?</a>
+                <a class="etc" href="/recuperar">¿Olvidaste contraseña?</a>
             </div>
             
 
