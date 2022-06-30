@@ -18,7 +18,7 @@ const Recuperar = () =>{
             </div>
 
             <div class="button0">
-                <button class="boton1">Enviar</button>
+                <button class="boton1" data-dismiss="alert">Enviar</button>
             </div>
         
         </div>
