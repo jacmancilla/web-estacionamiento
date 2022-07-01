@@ -9,7 +9,7 @@ const Iniciodueno = () => {
     <div className="contenedor-inicio">
       Inicio Dueño
       <div>
-        <Button href="/iniciocliente" color="inherit">Iniciocliente</Button>
+        <Button href="/recuperar" color="inherit">Iniciocliente</Button>
 
       </div>
     </div>

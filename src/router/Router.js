@@ -11,6 +11,7 @@ import Registro from '../pages/registro/Registro'
 import Login from '../pages/login/Login'
 import Iniciocliente from '../pages/iniciocliente/Iniciocliente'
 import Recuperar from '../pages/recuperar/Recuperar';
+import Comentar from '../pages/comentar/Comentar';
 
 
 const Router = () => {
@@ -22,6 +23,7 @@ const Router = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/iniciocliente" element={<Iniciocliente />} />
         <Route path="/recuperar" element={<Recuperar/>}/>
+        <Route path="/comentar" element={<Comentar/>}/>
         
 
       </Routes>
