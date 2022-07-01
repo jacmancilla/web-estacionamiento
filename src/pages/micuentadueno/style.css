@@ -1,0 +1,65 @@
+h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.Card { 
+    background-color: #fac213;
+  
+    height: 600px;
+    width: 415px;
+}
+
+.form { 
+
+    padding-top: 29px;
+    
+    width: 98%;
+    text-align-last: center;
+
+}
+
+
+.datos{
+    padding: 20px;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-left: 29px;
+
+
+}
+.input1{
+    margin:4px;
+    height: 14px;
+    width: 300px;
+    border-width: initial;
+}
+
+
+
+
+.boton1{
+    border: none;
+    background-color: #a760ff;
+    color: white;
+    margin-top: -28px;
+    width: 307px;
+
+}
+
+.boton1:hover{
+  background-color: #FF87CA;
+  color: white;
+}
+
+.radio{
+    margin-left: -133px;
+    padding-top: -14px;
+    margin-top: -7px;
+}
+
+.comunas{
+    color: #030303;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}

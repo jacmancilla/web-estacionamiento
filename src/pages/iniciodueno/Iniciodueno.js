@@ -1,17 +1,43 @@
 import { Button } from '@mui/material'
 import React from 'react'
 import './style.css'
-
+import parkin from '../../assets/parkin.png'
+import usuario from '../../assets/usuario.png'
+import comentario from '../../assets/comentario.png'
 
 
 const Iniciodueno = () => {
   return (
     <div className="contenedor-inicio">
-      Inicio Dueño
-      <div>
-        <Button href="/iniciocliente" color="inherit">Iniciocliente</Button>
+      <h2>Bienvenido</h2>
+
+
+      <div class="contenedor-imagen">
+
+        <div>
+          <img src={parkin} className="imagen-inicio" />
+          <h2 class="tipo-letra">Estacionamiento</h2>
+        </div>
+
+        <div>
+          <a href="/micuentadueno">
+            <img src={usuario} className="imagen-inicio" />
+
+          </a>
+
+          <h2>Mi cuenta</h2>
+        </div>
+
+        <div>
+          <img src={comentario} className="imagen-inicio" />
+          <h2>Comentarios</h2>
+        </div>
+
 
       </div>
+
+
+
     </div>
 
   )

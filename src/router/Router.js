@@ -11,6 +11,8 @@ import Registro from '../pages/registro/Registro'
 import Login from '../pages/login/Login'
 import Iniciocliente from '../pages/iniciocliente/Iniciocliente'
 import Recuperar from '../pages/recuperar/Recuperar';
+import Micuentadueno from '../pages/micuentadueno/Micuentadueno';
+
 
 
 const Router = () => {
@@ -21,8 +23,9 @@ const Router = () => {
         <Route path="/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/iniciocliente" element={<Iniciocliente />} />
-        <Route path="/recuperar" element={<Recuperar/>}/>
-        
+        <Route path="/recuperar" element={<Recuperar />} />
+        <Route path="/micuentadueno" element={<Micuentadueno />} />
+
 
       </Routes>
     </BrowserRouter>
