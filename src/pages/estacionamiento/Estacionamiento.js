@@ -33,16 +33,16 @@ const Estacionamiento = () =>{
 
             <div>
                 <label className="hora">Seleccione Hora</label>
-                <button>08:00</button>
-                <button>09:00</button>
-                <button>12:00</button>
-                <button>14:00</button>
-                <button>15:00</button>
-                <button>17:00</button>
+                <button className="hora1">08:00</button>
+                <button className="hora2">09:00</button>
+                <button className="hora3">12:00</button>
+                <button className="hora4">14:00</button>
+                <button className="hora5">15:00</button>
+                <button className="hora6">17:00</button>
             </div>
 
             <div>
-                <button>Reservar Hora</button>
+                <button className="ReservarH">Reservar Hora</button>
             </div>
             
         </div>
