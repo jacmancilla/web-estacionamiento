@@ -1,3 +1,4 @@
+import { Button } from '@mui/material'
 import React from 'react'
 import './style.css'
 
@@ -21,7 +22,9 @@ const Recuperar = () =>{
                 <button class="boon1">Enviar</button>
             
         
-    
+        <div>
+         <Button href="/iniciocliente" color="inherit">inicio cliente </Button>
+         </div>
 
 
       </div>

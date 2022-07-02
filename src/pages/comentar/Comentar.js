@@ -7,21 +7,20 @@ const Comentar = () => {
     return(
        <div className="contenedor-inicio">
     
-               <h2 class="coment">Comentarios</h2>
+               <h2 class="coment">Gracias por utilizar "Mi Estacionamiento"</h2>
            
         
                <div class="Card3">
                     <div class="text">
-                        <label class="name">Nombre:</label>
+                        <label class="name">Escribir comentario:</label>
                     </div>
 
                     <div class="text2">
-                        <input class="inp1"></input>
                         <textarea class="area"></textarea>
                 </div>
 
             <div class="butt">
-                <button class="bot1">Enviar Comentario</button>
+                <button class="bot1">Enviar</button>
             </div>
 
            
