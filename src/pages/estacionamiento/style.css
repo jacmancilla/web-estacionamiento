@@ -1,0 +1,57 @@
+.imge-mapa{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.label-mapa{
+    position: relative;
+    left: -6px;
+    text-align: center;
+}
+
+
+
+.bot-mapa1{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition-duration: 0.4s; 
+
+}
+
+.bot-mapa1:hover{
+    background-color:greenyellow;
+    color: black;
+}
+
+.textolabel {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.input,
+.textolabel {
+    margin: .4rem 0;
+}
+
+.textolabel2{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0;
+}
+
+.hora{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0;
+}
