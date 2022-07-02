@@ -1,0 +1,23 @@
+.contenedor-inicio {
+    padding: 10px
+}
+
+h2 {
+    text-align: center;
+    padding: 40px;
+}
+.imagen {
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.imag-inicio{
+    width: 300px;
+    margin: 0 50px;
+
+
+
+
+    }
