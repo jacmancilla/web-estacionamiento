@@ -22,7 +22,7 @@ const Iniciocliente = () => {
         </div>
 
         <div>
-          <a href="">
+          <a href="/micuentacliente">
             <img src={usuario2} className="imag-inicio" alt='img-usuario2' />
 
           </a>
@@ -31,7 +31,7 @@ const Iniciocliente = () => {
         </div>
 
         <div>
-          <a href=""> 
+          <a href="./comentar"> 
           <img src={globos} className="imag-inicio" alt='img-globos' />
           </a> 
           <h2>Comentarios</h2>
