@@ -3,7 +3,7 @@ h2 {
     padding: 40px;
 }
 
-.Card { 
+.Card1 { 
     background-color: #fac213;
     width: 350px;
     height: 350px;
@@ -15,35 +15,35 @@ h2 {
     justify-content: center;
 }
 
-.texto1 { 
+.txt { 
     text-align: center;
     display: block;
     padding-top: 100px;
     margin: .6rem
 }
 
-.texto2{
+.txt3{
     text-align: center;
 
 }
 
-.usu{
+.usua{
     padding: 20px;
     font-size: 18px;
     
 }
 
-.cont {
+.contras{
     padding: 5px;
     font-size: 18px;
 }
 
-.button0{
+.but0{
   text-align: center;
   padding: 50px;
 }
 
-.boton1{
+.btn{
   border: none;
   background-color: #a760ff;
   color: white;
@@ -60,18 +60,18 @@ h2 {
 
 }
 
-.boton1:hover{
+.btn:hover{
   background-color: #FF87CA;
   color: white;
 }
 
-.olvcont{
+.olvcontra{
     text-align: center;
     margin:-25px;
    
 }
 
-.etc{
+.ettc{
     color: black;
    
     

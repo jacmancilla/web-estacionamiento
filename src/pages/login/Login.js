@@ -6,25 +6,25 @@ import './style.css'
 const Login = () => {
     return (
         <div className="contenedor-inicio">
-           <h2 class="parrafo1">Iniciar sesión</h2> 
+           <h2 class="txt">Iniciar sesión</h2> 
 
-           <div class="Card">
+           <div class="Card1">
             <div class="texto1">
-                <label class="usu">Usuario:</label>
-                <input class="input1"></input>
+                <label class="usua">Usuario:</label>
+                <input class="txt2"></input>
             </div>
 
-            <div class="texto2">
-                <label class="cont">Contraseña:</label>
+            <div class="txt3">
+                <label class="contras">Contraseña:</label>
                 <input ></input>
             </div>
 
-            <div class="button0">
-                <button class="boton1">Iniciar Sesión</button>
+            <div class="but0">
+                <button class="btn">Iniciar Sesión</button>
             </div>
 
-            <div class="olvcont">
-                <a class="etc" href="/recuperar">¿Olvidaste contraseña?</a>
+            <div class="olvcontra">
+                <a class="ettc" href="/recuperar">¿Olvidaste contraseña?</a>
             </div>
             
 
