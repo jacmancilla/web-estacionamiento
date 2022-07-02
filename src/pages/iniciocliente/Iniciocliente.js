@@ -15,7 +15,7 @@ const Iniciocliente = () => {
       <div class="imagen">
 
         <div>
-          <a href="">
+          <a href="./estacionamiento">
             <img src={marcador} className="imag-inicio" alt='img-marcador' />
           </a>
             <h2 class="tipo-letra">Estacionamiento</h2>
