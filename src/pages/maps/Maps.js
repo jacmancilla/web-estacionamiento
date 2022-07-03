@@ -7,7 +7,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 
 import './style.css'
-import ListaEstacionamiento from '../listaestacionamientos/ListaEstacionamiento';
+import ListaEstacionamiento from '../listaestacionamientos/Listaestacionamiento';
 
 const Maps = () => {
     const [fechaInicial, setFechaInicial] = useState();
