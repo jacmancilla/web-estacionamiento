@@ -1,0 +1,13 @@
+.datapicker {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.datapicker-stack {
+    margin:50px 30px !important
+}
+
+.google-map {
+    text-align: center;
+}

@@ -3,7 +3,7 @@ h2 {
     padding: 40px;
 }
 
-.Card { 
+.Card2 { 
     background-color: #fac213;
     width: 350px;
     height: 350px;
@@ -15,7 +15,7 @@ h2 {
     justify-content: center;
 }
 
-.texto1 { 
+.texto2 { 
     text-align: center;
     display: block;
     padding-top: 100px;
@@ -27,22 +27,22 @@ h2 {
 
 }
 
-.usu{
+.correo{
     font-size: 18px;
     
 }
 
-.cont {
+.text3 {
     padding: 5px;
     font-size: 18px;
 }
 
-.button0{
+.butto{
   text-align: center;
   padding: 35px;
 }
 
-.boton1{
+.boon1{
   border: none;
   background-color: #a760ff;
   color: white;
@@ -59,12 +59,12 @@ h2 {
 
 }
 
-.boton1:hover{
+.boon1:hover{
   background-color: #FF87CA;
   color: white;
 }
 
-.input1{
+.input2{
     text-align: center;
     padding: 5px;
     margin: .6rem

@@ -1,0 +1,15 @@
+.container-pago{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detalle-pago{
+    width: 90%;
+    padding: 50px;
+}
+
+.container-buttons {
+    margin-top: 30px;
+}
