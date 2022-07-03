@@ -8,20 +8,21 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import './style.css'
-import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-    const navigate = useNavigate()
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
         const email = data.get('email')
         const clave = data.get('password')
         if (email === 'dueno@gmail.com' && clave === '112233') {
-            navigate('/iniciodueno')
+            localStorage.setItem('tipoUsuario', 'admin')
+            window.location.replace("/iniciodueno");
+
         }
         if (email === 'cliente@gmail.com' && clave === '112233') {
-            navigate('/reservar')
+            localStorage.setItem('tipoUsuario', 'cliente')
+            window.location.replace("/reservar");
         }
     };
     return (
