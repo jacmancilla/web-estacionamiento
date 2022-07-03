@@ -1,42 +1,47 @@
 import React from 'react'
 import './style.css'
-import parkin from '../../assets/parkin.png'
-import usuario from '../../assets/usuario.png'
-import comentario from '../../assets/comentario.png'
+import globos from '../../assets/globos.png'
+import usuario2 from '../../assets/usuario2.png'
+import marcador from '../../assets/marcador.png'
 
 
 const Iniciodueno = () => {
   return (
     <div className="contenedor-inicio">
-      <h2>Bienvenido</h2>
+      <h2>Bienvenido adminsitrador</h2>
 
       <div class="contenedor-imagen">
 
         <div>
-          <img src={parkin} className="imagen-inicio" alt='img-parking' />
-          <h2 class="tipo-letra">Estacionamiento</h2>
+          <a href="/RegistroEstacionamiento">
+            <img src={marcador} className="imagen-inicio" alt='img-marcador' />
+          </a>
+
+          <h2>Estacionamiento</h2>
         </div>
+
 
         <div>
           <a href="/micuentadueno">
-            <img src={usuario} className="imagen-inicio" alt='img-usuario' />
-
+            <img src={usuario2} className="imagen-inicio" alt='img-usuario2' />
           </a>
 
           <h2>Mi cuenta</h2>
         </div>
 
         <div>
-          <img src={comentario} className="imagen-inicio" alt='img-comentario' />
+          <a href="/Vercomentarios">
+            <img src={globos} className="imagen-inicio" alt='img-globos' />
+          </a>
           <h2>Comentarios</h2>
         </div>
 
 
+
+
       </div>
 
-
-
-    </div>
+    </div >
 
   )
 }

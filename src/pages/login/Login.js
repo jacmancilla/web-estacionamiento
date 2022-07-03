@@ -18,10 +18,10 @@ const Login = () => {
         const email = data.get('email')
         const clave = data.get('password')
         if (email === 'dueno@gmail.com' && clave === '112233') {
-            navigate('/micuentadueno')
+            navigate('/iniciodueno')
         }
         if (email === 'cliente@gmail.com' && clave === '112233') {
-            navigate('/iniciocliente')
+            navigate('/reservar')
         }
     };
     return (

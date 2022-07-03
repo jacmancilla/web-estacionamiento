@@ -5,7 +5,7 @@ import globos from '../../assets/globos.png'
 import usuario2 from '../../assets/usuario2.png'
 import marcador from '../../assets/marcador.png'
 
-
+//Esta pagina ya no vaaaaa, 
 
 const Iniciocliente = () => {
   return (
@@ -15,14 +15,14 @@ const Iniciocliente = () => {
       <div class="imagen">
 
         <div>
-          <a href="./estacionamiento">
+          <a href="">
             <img src={marcador} className="imag-inicio" alt='img-marcador' />
           </a>
           <h2 class="tipo-letra">Estacionamiento</h2>
         </div>
 
         <div>
-          <a href="/micuentacliente">
+          <a href="">
             <img src={usuario2} className="imag-inicio" alt='img-usuario2' />
 
           </a>
@@ -31,7 +31,7 @@ const Iniciocliente = () => {
         </div>
 
         <div>
-          <a href="/comentar">
+          <a href="">
             <img src={globos} className="imag-inicio" alt='img-globos' />
           </a>
           <h2>Comentarios</h2>

@@ -7,7 +7,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 
 import './style.css'
-import ListaEstacionamiento from '../listaestacionamientos/Listaestacionamiento';
+import ListaEstacionamiento from '../listaestacionamientos/ListaEstacionamiento';
 
 const Maps = () => {
     const [fechaInicial, setFechaInicial] = useState();
@@ -39,6 +39,7 @@ const Maps = () => {
 
     return (
         <div>
+            <h2>Encuentra el mejor estacionamiento</h2>
             <div className='datapicker'>
                 <LocalizationProvider dateAdapter={AdapterDateFns}>
                     <Stack spacing={3} className='datapicker-stack'>

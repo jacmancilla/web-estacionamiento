@@ -1,17 +1,18 @@
-h2 {
-    text-align: center;
-    padding: 40px;
+
+.contenedor-mi-cuenta-dueno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Card { 
+.formulario-dueno { 
     background-color: #fac213;
-  
     height: 600px;
     width: 415px;
+    border-radius: 5px;
 }
 
-.form { 
-
+.form-dueno { 
     padding-top: 29px;
     
     width: 98%;
@@ -20,46 +21,61 @@ h2 {
 }
 
 
-.datos{
-    padding: 20px;
+.label-dueno{
+    width: 108px;
+    padding: 0 10px 0 20px;
     font-size: 18px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
-    margin-left: 29px;
-
-
+    /* margin-left: 29px; */
+    text-align: right;
 }
-.input1{
-    margin:4px;
+.input-dueno{
+    margin: 4px;
     height: 14px;
     width: 300px;
-    border-width: initial;
+    text-align-last: left;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
 }
 
 
 
+.micuenta-select{
+    height: 32px;
+    background-color: white;
+    width: 252px;
+}
 
-.boton1{
+.boton-modi-dueno{
+    font-size: 18px;
     border: none;
     background-color: #a760ff;
     color: white;
-    margin-top: -28px;
+    /* margin-top: -28px; */
     width: 307px;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: 32px;
 
 }
 
-.boton1:hover{
+.boton-modi-dueno:hover{
   background-color: #FF87CA;
   color: white;
 }
 
-.radio{
-    margin-left: -133px;
-    padding-top: -14px;
-    margin-top: -7px;
-}
 
 .comunas{
     color: #030303;
     font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.contenedor-mi-cuenta-div {
+    display: flex;
+    place-items: center;
+    margin: 12px;
+
 }
