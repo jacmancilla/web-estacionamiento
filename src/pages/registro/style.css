@@ -1,11 +1,92 @@
-.contenedor-registro {
-    padding: 10px
+h2 {
+    text-align: center;
+    padding: 40px;
 }
 
-.button-registro{
-    background-color: blueviolet;
+
+
+.Card {
+    background-color: #fac213;
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: auto;
+    /* justify-content: center; */
 }
 
-.button-registro:hover {
-    background-color: rgb(189, 147, 227);
+.texto1 {
+    text-align: center;
+    margin: .6rem;
+    padding-top: 10px;
+
+
+}
+
+.texto2 {
+    text-align: left;
+    margin: .6rem;
+    padding-top: 10px;
+
+
+}
+
+.usu {
+    padding: 20px;
+    font-size: 18px;
+
+}
+
+.input {
+    align-items: flex-end;
+    text-align: flex-end;
+    display: inline-block;
+    width: 140px;
+
+}
+
+.cont {
+    align-items: right;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.button0 {
+    text-align: center;
+    padding: 50px;
+}
+
+.boton1 {
+    border: none;
+    background-color: #a760ff;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+
+}
+
+.boton1:hover {
+    background-color: #FF87CA;
+    color: white;
+}
+
+.olvcont {
+    text-align: center;
+    margin: -25px;
+
+}
+
+.etc {
+    color: black;
+
+
 }

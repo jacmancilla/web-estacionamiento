@@ -1,0 +1,7 @@
+.combo{
+    align-items: flex-end;
+    text-align: flex-end;
+    display: inline-block;
+    width: 140px;
+    height: 23px;
+};
