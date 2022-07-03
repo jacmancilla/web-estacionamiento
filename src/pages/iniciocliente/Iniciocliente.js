@@ -8,8 +8,8 @@ import marcador from '../../assets/marcador.png'
 
 
 const Iniciocliente = () => {
-    return (
-        <div className="contenedor-inicio">
+  return (
+    <div className="contenedor-inicio">
       <h2>Bienvenido</h2>
 
       <div class="imagen">
@@ -18,7 +18,7 @@ const Iniciocliente = () => {
           <a href="./estacionamiento">
             <img src={marcador} className="imag-inicio" alt='img-marcador' />
           </a>
-            <h2 class="tipo-letra">Estacionamiento</h2>
+          <h2 class="tipo-letra">Estacionamiento</h2>
         </div>
 
         <div>
@@ -31,17 +31,17 @@ const Iniciocliente = () => {
         </div>
 
         <div>
-          <a href="./comentar"> 
-          <img src={globos} className="imag-inicio" alt='img-globos' />
-          </a> 
+          <a href="/comentar">
+            <img src={globos} className="imag-inicio" alt='img-globos' />
+          </a>
           <h2>Comentarios</h2>
         </div>
 
-       </div>
       </div>
+    </div>
 
-        
-    )
+
+  )
 }
 
 export default Iniciocliente
