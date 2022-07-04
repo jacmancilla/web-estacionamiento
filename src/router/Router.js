@@ -20,7 +20,7 @@ import Maps from '../pages/maps/Maps'
 import Pago from '../pages/pago/Pago';
 import Vercomentarios from '../pages/vercomentarios/Vercomentarios';
 
-import ListaEstacionamiento from '../pages/listaestacionamientos/ListaEstacionamiento';
+import ListaEstacionamiento from '../pages/listaestacionamientos/Listaestacionamiento';
 
 
 

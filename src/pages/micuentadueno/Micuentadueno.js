@@ -18,8 +18,6 @@ const Micuentadueno = () => {
     return (
         <div className="contenedor-mi-cuenta-dueno">
             <h2 class="titulo-dueno">Mis datos personales</h2>
-
-
             <div class="formulario-dueno">
 
                 <form class="form-dueno">

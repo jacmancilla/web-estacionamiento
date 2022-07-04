@@ -1,17 +1,17 @@
-.contenedor-mi-cuenta-est{
+.contenedor-mi-cuenta-cliente{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.formulario-est { 
+.formulario-cliente { 
     background-color: #fac213;
-    height: 380px;
+    height: 600px;
     width: 415px;
     border-radius: 5px;
 }
 
-.form-est { 
+.form-cliente { 
     padding-top: 29px;
     
     width: 98%;
@@ -20,7 +20,7 @@
 }
 
 
-.label-est{
+.label-cliente{
     width: 108px;
     padding: 0 10px 0 20px;
     font-size: 18px;
@@ -29,7 +29,7 @@
     /* margin-left: 29px; */
     text-align: right;
 }
-.input-est{
+.input-cliente{
     margin: 4px;
     height: 14px;
     width: 300px;
@@ -47,7 +47,7 @@
     width: 252px;
 }
 
-.boton-modi-est{
+.boton-modi-cliente{
     font-size: 18px;
     border: none;
     background-color: #a760ff;
@@ -60,7 +60,7 @@
 
 }
 
-.boton-modi-est:hover{
+.boton-modi-cliente:hover{
   background-color: #FF87CA;
   color: white;
 }
