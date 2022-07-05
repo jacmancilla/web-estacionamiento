@@ -13,7 +13,7 @@
     text-align: center;
   }
   
-  .cards {
+  .cardst {
     margin: 30px auto;
     width: 300px;
     height: 500px;
@@ -24,20 +24,20 @@
     background-color: #F4EEFF;
   }
   
-  .cards .card_image  {
+  .cardst .card_image  {
     width: inherit;
     height: inherit;
     border-radius: 40px;
   }
   
-  .cards .card_image img {
+  .cardst .card_image img {
     width: inherit;
     height: inherit;
     border-radius: 40px;
     object-fit: cover;
   }
   
-  .cards .card_title {
+  .cardst .card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
     font-family: sans-serif;
@@ -62,7 +62,7 @@
   
   }
   
-  .cards:hover {
+  .cardst:hover {
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
       -5px -5px 30px 15px rgba(0,0,0,0.22);

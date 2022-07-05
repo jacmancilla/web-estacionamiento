@@ -12,7 +12,7 @@ const Informacion = () =>{
 
         <div className="cards-list">
 
-            <div className="cards 1">
+            <div className="cardst 1">
                 <div class="card_title title-black">
                     <p>Detalle Cliente 1:</p>
                 </div>
@@ -32,7 +32,7 @@ const Informacion = () =>{
                 </div>
             </div>
 
-            <div class="cards 2">
+            <div class="cardst 2">
                 <div class="card_title title-black">
                     <p>Detalle Cliente 2:</p>
                 </div>
@@ -51,7 +51,7 @@ const Informacion = () =>{
                 </div>
             </div>
  
-            <div class="cards 3">
+            <div class="cardst 3">
                 <div class="card_title">
                     <p>Detalle Cliente 3:</p>
                 </div>
@@ -70,7 +70,7 @@ const Informacion = () =>{
                 </div>
             </div>
 
-            <div class="cards 4">
+            <div class="cardst 4">
                 <div class="card_title title-black">
                     <p>Detalle Cliente 4:</p>
                 </div>
