@@ -38,40 +38,11 @@ const Registro = () => {
             <label class="label-cli">Contraseña:</label>
             <input class="input-cli" type="password"></input>
           </div>
-          <div className='contenedor-mi-cuenta-div'>
-            <label class="label-cli">Repetir contraseña:</label>
-            <input class="input-cli" type="password"></input>
-          </div>
+        
           <div className='contenedor-mi-cuenta-div'>
             <label className="label-cli">Dirección:</label>
             <input className="input-cli"></input>
           </div>
-
-
-          <div className='contenedor-mi-cuenta-div'>
-            <label className="label-cli">Tipo:</label>
-            <FormControl>
-              <RadioGroup
-                row
-                aria-labelledby="demo-row-radio-buttons-group-label"
-                name="row-radio-buttons-group"
-              >
-                <FormControlLabel value="casa" control={<Radio />} label="Casa" />
-                <FormControlLabel value="depto" control={<Radio />} label="Depto" />
-              </RadioGroup>
-            </FormControl>
-          </div>
-
-
-
-
-          <div className='contenedor-mi-cuenta-div'>
-            <label class="label-cli">Número:</label>
-            <input class="input-cli"></input>
-          </div>
-
-
-
 
           <div className='contenedor-mi-cuenta-div'>
             <label class="label-cli">Comuna:</label>
@@ -97,10 +68,39 @@ const Registro = () => {
                 <MenuItem value={120}>Quilicura</MenuItem>
                 <MenuItem value={130}>Santiago</MenuItem>
                 <MenuItem value={140}>Providencia</MenuItem>
-
-
               </Select>
             </FormControl>
+          </div>
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">N cuenta:</label>
+            <input class="input-cli"></input>
+            
+          </div>
+
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">Banco:</label>
+            <input class="input-cli"></input>
+            
+          </div>
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">Patente:</label>
+            <input class="input-cli"></input>
+            
+          </div>
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">Marca:</label>
+            <input class="input-cli"></input>
+            
+          </div>
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">Modelo:</label>
+            <input class="input-cli"></input>
+            
+          </div>
+          <div className='contenedor-mi-cuenta-div'>
+            <label class="label-cli">Año:</label>
+            <input class="input-cli"></input>
+            
           </div>
 
           <div>

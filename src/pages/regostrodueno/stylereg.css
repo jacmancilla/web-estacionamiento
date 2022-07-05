@@ -1,18 +1,18 @@
-.contenedor-mi-cuenta-cli{
+.contenedor-mi-cuenta-duen{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.formulario-cli { 
+.formulario-duen { 
     background-color: #fac213;
     height: 800px;
     width: 415px;
     border-radius: 5px;
 }
 
-.form-cli { 
+.form-duen { 
     padding-top: 29px;
     
     width: 98%;
@@ -21,7 +21,7 @@
 }
 
 
-.label-cli{
+.label-duen{
     width: 108px;
     padding: 0 10px 0 20px;
     font-size: 18px;
@@ -30,7 +30,7 @@
     /* margin-left: 29px; */
     text-align: right;
 }
-.input-cli{
+.input-duen{
     margin: 4px;
     height: 14px;
     width: 300px;
@@ -48,7 +48,7 @@
     width: 252px;
 }
 
-.boton-modi-cli{
+.boton-modi-duen{
     font-size: 18px;
     border: none;
     background-color: #a760ff;
@@ -62,7 +62,7 @@
 
 }
 
-.boton-modi-cli:hover{
+.boton-modi-duen:hover{
   background-color: #FF87CA;
   color: white;
 }

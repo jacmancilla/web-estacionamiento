@@ -19,8 +19,9 @@ import Estacionamiento from '../pages/estacionamiento/Estacionamiento';
 import Maps from '../pages/maps/Maps'
 import Pago from '../pages/pago/Pago';
 import Vercomentarios from '../pages/vercomentarios/Vercomentarios';
+import Registrodueno from '../pages/regostrodueno/Registrodueno';
 
-import ListaEstacionamiento from '../pages/listaestacionamientos/ListaEstacionamiento';
+import ListaEstacionamiento from '../pages/listaestacionamientos/Listaestacionamiento';
 import Informacion from '../pages/informacion/informacion';
 
 
