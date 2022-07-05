@@ -6,6 +6,12 @@ h2 {
     text-align: center;
     padding: 40px;
 }
+
+.detalleclidue{
+    text-align: center;
+    padding: 40px;
+    
+}
 .contenedor-imagen {
     margin-top:50px;
     display:flex;
@@ -14,7 +20,7 @@ h2 {
 }
 
 .imagen-inicio{
-    width: 300px;
+    width: 280px;
     margin: 0 50px;
 
 

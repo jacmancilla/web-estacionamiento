@@ -21,7 +21,7 @@ import Pago from '../pages/pago/Pago';
 import Vercomentarios from '../pages/vercomentarios/Vercomentarios';
 
 import ListaEstacionamiento from '../pages/listaestacionamientos/Listaestacionamiento';
-
+import Informacion from '../pages/informacion/informacion';
 
 
 const Router = () => {
@@ -47,7 +47,7 @@ const Router = () => {
         <Route path="/pago" element={<Pago />} />
         <Route path="/ListaEstacionamiento" element={<ListaEstacionamiento />} />
         <Route path="/Vercomentarios" element={<Vercomentarios />} />
-
+        <Route path="/informacion" element={<Informacion/>}/>
 
 
 
