@@ -20,7 +20,7 @@ import Maps from '../pages/maps/Maps'
 import Pago from '../pages/pago/Pago';
 import Vercomentarios from '../pages/vercomentarios/Vercomentarios';
 
-import ListaEstacionamiento from '../pages/listaestacionamientos/Listaestacionamiento';
+import ListaEstacionamiento from '../pages/listaestacionamientos/ListaEstacionamiento';
 import Informacion from '../pages/informacion/informacion';
 
 
@@ -47,7 +47,7 @@ const Router = () => {
         <Route path="/pago" element={<Pago />} />
         <Route path="/ListaEstacionamiento" element={<ListaEstacionamiento />} />
         <Route path="/Vercomentarios" element={<Vercomentarios />} />
-        <Route path="/informacion" element={<Informacion/>}/>
+        <Route path="/informacion" element={<Informacion />} />
 
 
 
