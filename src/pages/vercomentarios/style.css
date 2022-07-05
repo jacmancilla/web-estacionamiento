@@ -13,7 +13,7 @@
     text-align: center;
   }
   
-  .cards {
+  .cardsf {
     margin: 30px auto;
     width: 300px;
     height: 300px;
@@ -24,20 +24,20 @@
     background-color: #F4EEFF;
   }
   
-  .cards .card_image  {
+  .cardsf .card_image  {
     width: inherit;
     height: inherit;
     border-radius: 40px;
   }
   
-  .cards .card_image img {
+  .cardsf .card_image img {
     width: inherit;
     height: inherit;
     border-radius: 40px;
     object-fit: cover;
   }
   
-  .cards .card_title {
+  .cardsf .card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
     font-family: sans-serif;
@@ -51,7 +51,7 @@
     object-fit: cover;
   }
   
-  .card_parrafo{
+  .card_parrafot{
      
       font-family: sans-serif;
       font-size: 15px;
@@ -62,7 +62,7 @@
   
   }
   
-  .cards:hover {
+  .cardsf:hover {
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
       -5px -5px 30px 15px rgba(0,0,0,0.22);
