@@ -21,7 +21,7 @@ import Pago from '../pages/pago/Pago';
 import Vercomentarios from '../pages/vercomentarios/Vercomentarios';
 import Registrodueno from '../pages/regostrodueno/Registrodueno';
 
-import ListaEstacionamiento from '../pages/listaestacionamientos/Listaestacionamiento';
+import ListaEstacionamiento from '../pages/listaestacionamientos/ListaEstacionamiento';
 import Informacion from '../pages/informacion/informacion';
 
 
@@ -31,7 +31,8 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/Iniciodueno" element={<Iniciodueno />} />
-        <Route path="/registro" element={<Registro />} />
+        <Route path="/registro/cliente" element={<Registro />} />
+        <Route path="/registro/admin" element={< Registrodueno />} />
         <Route path="/login" element={<Login />} />
         <Route path="/iniciocliente" element={<Iniciocliente />} />
         <Route path="/recuperar" element={<Recuperar />} />

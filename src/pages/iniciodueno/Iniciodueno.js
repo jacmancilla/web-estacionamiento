@@ -9,7 +9,7 @@ import detalle from '../../assets/detalle.png'
 const Iniciodueno = () => {
   return (
     <div className="contenedor-inicio">
-      <h2>Bienvenido adminsitrador</h2>
+      <h2>Bienvenido administrador</h2>
 
       <div class="contenedor-imagen">
 
