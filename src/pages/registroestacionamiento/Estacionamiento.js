@@ -66,6 +66,20 @@ const Estacionamiento = () => {
                             </Select>
                         </FormControl>
                     </div>
+                    <div className='contenedor-mi-cuenta-div'>
+                        <label class="label-est">Fecha:</label>
+                        <input type="date" class="input-est"></input>
+                    </div>
+                    <div className='contenedor-mi-cuenta-div'>
+                        <label class="label-est">Hora inicio:</label>
+                        <input type="time" class="input-est"></input>
+                    </div>
+                    <div className='contenedor-mi-cuenta-div'>
+                        <label class="label-est">Hora termi:</label>
+                        <input type="time" class="input-est"></input>
+                    </div>
+                   
+                   
 
                     <div>
                         <button class="boton-modi-est">Registrar</button>

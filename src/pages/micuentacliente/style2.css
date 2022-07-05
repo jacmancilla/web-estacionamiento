@@ -6,7 +6,7 @@
 
 .formulario-cliente { 
     background-color: #fac213;
-    height: 600px;
+    height: 800px;
     width: 415px;
     border-radius: 5px;
 }
@@ -57,6 +57,7 @@
     height: 32px;
     border-radius: 5px;
     margin-top: 32px;
+    margin-block-end: 300px;
 
 }
 

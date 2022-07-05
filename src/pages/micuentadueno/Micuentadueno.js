@@ -23,15 +23,15 @@ const Micuentadueno = () => {
                 <form class="form-dueno">
                     <div className='contenedor-mi-cuenta-div'>
                         <label class="label-dueno">Nombre:</label>
-                        <input class="input-dueno"></input>
+                        <input value="Rafael" class="input-dueno"></input>
                     </div>
                     <div className='contenedor-mi-cuenta-div'>
                         <label class="label-dueno">Apellidos:</label>
-                        <input class="input-dueno"></input>
+                        <input value="Gonzalez" class="input-dueno"></input>
                     </div>
                     <div className='contenedor-mi-cuenta-div'>
                         <label className="label-dueno">Dirección:</label>
-                        <input className="input-dueno"></input>
+                        <input value="Pje Navidad" className="input-dueno"></input>
                     </div>
 
                     <div className='contenedor-mi-cuenta-div'>
@@ -52,7 +52,7 @@ const Micuentadueno = () => {
 
                     <div className='contenedor-mi-cuenta-div'>
                         <label class="label-dueno">Número:</label>
-                        <input class="input-dueno"></input>
+                        <input value="1452"  class="input-dueno"></input>
                     </div>
 
                     <div className='contenedor-mi-cuenta-div'>
@@ -89,11 +89,11 @@ const Micuentadueno = () => {
 
                     <div className='contenedor-mi-cuenta-div'>
                         <label class="label-dueno">Banco:</label>
-                        <input class="input-dueno"></input>
+                        <input value="Banco estado"  class="input-dueno"></input>
                     </div>
                     <div className='contenedor-mi-cuenta-div'>
                         <label class="label-dueno">N° Cuenta:</label>
-                        <input class="input-dueno"></input>
+                        <input value="123123490000"  class="input-dueno"></input>
 
                     </div>
 
